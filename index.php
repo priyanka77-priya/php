@@ -19,7 +19,7 @@ $name = test_input($_POST["name"]);
 if (empty($_POST["password"])) {
 $passErr = "Password is required";
 } else {
-$pass = test_input($_POST["password"]);
+$password = test_input($_POST["password"]);
 }
 }
 function test_input($data) {
